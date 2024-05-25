@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="envelope" onclick="openLetter()">
+    <div class="letter closed" id="letter">
+        <div class="page active" id="page1">
+            <p>Para mi niño hermoso;</p>
+            <p>Hola, preciosoo; sé que está bien extraño y bien feo esto, pero pues hay cositas que de repente se me complica decírtelas directamente y pues decidí recurrir a esto. Quiero contarte que me siento muy triste y confundida al respecto de nuestra relación, yo quiero estar contigo toda la vida, estar juntos siempre, ser amigos ahora, novios después, y esposos más tarde, pero el problema es ahora... Honestamente tengo demasiado miedo de que pueda no irte como deseas en la escuela, y más aún si es por mi causa, ya que aunque no me lo digas, sé que soy una completa distracción para ti, y que realmente estabas mucho mejor cuando dejé de formar parte de tu vida.</p>
+        </div>
+        <div class="page" id="page2">
+            <p>No sé qué hacer respecto a todo esto, quiero que te vaya muy bien, y yo sé que es casi seguro que eso será imposible o muy difícil mientras yo esté molestando o estorbando en tu camino, pero eres a quien amo y me cuesta mucho aceptar que quizá debería dejar que siguieras tu vida a como te gustaría, al menos por ahora. Realmente no sé qué decidir o qué pensar, pero... No quiero arruinarte la vida, es lo que menos quiero, y si quisieras alejarnos totalmente, como el semestre anterior, lo voy a aceptar, no sin llorar, pero lo aceptaré, porque te amo con todo mi corazón, niño, y si no te hago bien, por ti, apartaré mi amor y me alejaré.</p>
+            <p>Con eterno amor, tu niña.</p>
+        </div>
+        <div class="corner" onclick="turnPage(event)"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
